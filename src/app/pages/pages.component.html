@@ -1,0 +1,101 @@
+<div class="esl-networkbar" >
+    <div class="networkbar-wrap-networkbar">
+        <div id="networkbar">
+            <div class="networkbar-left-wrap">
+                <div style="color: blanchedalmond" >
+                    <span class="material-icons"> apps</span>
+                </div>
+                <div class="networkbar-text-block networkbar-center-wrap"> 
+                    <div class="networkbar-franchise" title="COUNTER STRIKE">
+                        COUNTER STRIKE <span style="color: #fff;">: Global Offensive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="esl-container">
+    <mat-sidenav-container >
+        <mat-sidenav class="sidenav-menu-container" #drawer mode="side" opened  >
+            <mat-nav-list>
+                <div >
+                    <div class="sidenav-menu-container-inner">
+                        <div id="img-log" >
+                            <img class="logo" src="assets/img/ct.png">
+                        </div>
+                        <div class="sidenav-menu-body">
+                            <div class="sidenav-menu-list">
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;">
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner" >
+                                                <span class="material-icons">whatshot</span>
+                                                <div style="padding-left: 10px;">SEASON</div> 
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;" routerLink="/maps"> 
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner">
+                                                <span class="material-icons">map</span>
+                                                <div style="padding-left: 10px;">MAPS</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;" routerLink="/players">
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner">
+                                                <span class="material-icons">person</span>
+                                                <div style="padding-left: 10px;">PLAYERS</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;" routerLink="/teams">
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner">
+                                                <span class="material-icons">security</span>
+                                                <div style="padding-left: 10px;">TEAMS</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;" routerLink="/players">
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner">
+                                                <span class="material-icons">emoji_events</span>
+                                                <div  style="padding-left: 10px;">TOURNAMENTS</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidenav-menu-items">
+                                    <a mat-list-item style="padding:0px;" routerLink="/#">
+                                        <div class="sdnav-menu-items_li">
+                                            <div class="sdnav-menu-items-inner">
+                                                <span class="material-icons">gps_fixed</span>
+                                                <div style="padding-left: 10px;">WEAPONS</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content>
+        <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+
+
+

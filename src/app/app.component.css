@@ -1,0 +1,36 @@
+.elementor-kit{
+    --e-global-color-primary: #FFFFFF;
+    --e-global-color-secondary: #1D1D1B;
+    --e-global-color-text: #FFFFFF;
+    --e-global-color-accent: #FFFF09;
+    --e-global-color-27e28b7b: #E3FF09;
+    --e-global-color-6f8151e0: #6BFF36;
+    --e-global-color-1a6c3b4d: #1D1D1B;
+    --e-global-color-5bdcf372: #393935;
+    --e-global-color-1f50cd2b: #5B5B53;
+    --e-global-color-7d5de768: #9C9C93;
+    --e-global-color-676f4e46: #EDEDE4;
+    --e-global-color-44d3ed7b: #FF7300;
+    --e-global-color-2015e00: #FF2B5C;
+    --e-global-color-b352d8b: #FF8FFC;
+    --e-global-color-49e4c1b: #7800DB;
+    --e-global-color-0ba993e: #61F2FF;
+    --e-global-color-32091ae: #2B36F2;
+    --e-global-color-4cc2175: #4DE122;
+    --e-global-color-63ff86d: #282823;
+    --e-global-color-d6c4d66: #070707;
+    --e-global-typography-primary-font-family: "ESL Legend";
+    --e-global-typography-secondary-font-family: "ESL Legend";
+    --e-global-typography-text-font-family: "Calps Sans";
+    --e-global-typography-text-font-size: 20px;
+    --e-global-typography-accent-font-family: "Calps Sans";
+    --e-global-typography-accent-font-size: 20px;
+    color: var( --e-global-color-primary );
+    font-family: "Calps Sans", Sans-serif;
+    font-size: 20px;
+    background-color: var( --e-global-color-d6c4d66 );
+    background-image: url(https://eslproleaguecsgo.eslpro.gg/wp-content/uploads/2020/02/EPL-bg-070707-desktop2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
